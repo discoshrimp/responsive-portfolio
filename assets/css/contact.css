@@ -1,0 +1,44 @@
+
+input {
+
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border:1px solid gray;
+}
+#subject {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+
+}
+#submit {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: teal;
+    border-radius: 5px 5px 5px 5px;
+    width: 100px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 1250px) {
+    body {
+        width: 980px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    body {
+        width: 768px;
+    }
+}
+
+@media only screen and (max-width: 738px) {
+    body {
+        width: 640px;
+    }
+}
